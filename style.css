@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.15;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: #1F1F1F;
+    padding-top: 10px;
+}
+
+/*start header section*/
+
+header {
+    background-color: #1F1F1F;
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header div {
+    display: flex;
+    margin-right: auto;
+    width: 50px;
+}
+
+header div img {
+    margin-right: 5px;
+    width: 80px;
+}
+
+header div h2 {
+    color: white;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    margin-right: 50px;
+    height: 70px;
+    list-style-type: none;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+header ul li:hover {
+    background-color: #7fba0086;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.getApp {
+    border: none;
+    background-color: #7FBA00;
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 150px;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*end header section*/
+
+/*start landing section*/
+
+.landing-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.landing-section .landing-section-greetings {
+    width: 70%;
+}
+
+.landing-section .landing-section-greetings h2 {
+    font-size: 5rem;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.landing-section .landing-section-greetings :nth-child(1) {
+    font-weight: 100;
+}
+
+.landing-section .landing-section-greetings p {
+    padding-top: 50px;
+    padding-left: 5px;
+    color: #87868E;
+    width: 1000px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.landing-section .landing-section-greetings button {
+    margin: 0;
+}
+
+.circles,
+.circles div,
+.circles div div {
+    border-radius: 50%;
+}
+
+.circles {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #7FBA00;
+}
+
+.circles div {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d924;
+}
+
+.circles div div {
+    width: 200px;
+    height: 200px;
+    background-color: #87868E;
+    position: relative;
+}
+
+.circles .msp-logo {
+    position: absolute;
+}
+
+.circles .img1,
+.circles .img2,
+.circles .img3,
+.circles .img4 {
+    object-fit: cover;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.circles .img1 {
+    right: 0;
+    bottom: 10%;
+    transform: translate(-10%);
+}
+
+.circles .img2 {
+    left: 0;
+    top: 10%;
+    transform: translate(-10%);
+}
+
+.circles .img3 {
+    right: 10%;
+    top: 0;
+    transform: translateY(-10%);
+}
+
+.circles .img4 {
+    left: 10%;
+    bottom: 0;
+    transform: translateY(-10%);
+}
+
+.circles .img5,
+.circles .img6,
+.circles .img7 {
+    object-fit: cover;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.circles .img5 {
+    right: 10%;
+    top: 5%;
+    transform: translateX(60%);
+}
+
+.circles .img6 {
+    right: 15%;
+    bottom: 5%;
+    transform: translateY(45%);
+}
+
+.circles .img7 {
+    left: 0;
+    top: 20%;
+    transform: translateX(-45%);
+}
+
+.committees {
+    display: flex;
+    column-gap: 80px;
+    width: 60%;
+}
+
+.committees div {
+    width: 400px;
+    display: flex;
+    background-color: #d9d9d91e;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px 10px;
+}
+
+.committees div i {
+    font-size: 50px;
+    color: #7FBA00;
+}
+
+.committees div h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.committees div h2+p {
+    font-size: 1.2rem;
+    color: #87868E;
+}
+
+.committees div :last-child {
+    cursor: pointer;
+    color: #7FBA00;
+}
+
+.start-now {
+    width: 30%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.start-now h2 {
+    width: 75%;
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.start-now p {
+    color: #87868E;
+    padding-bottom: 30px;
+}
+
+.start-now button {
+    border: none;
+    background-color: #7FBA00;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*end landing section*/
+
+/*start pictures section*/
+
+.image-container {
+    height: 120vh;
+    width: 100%;
+    background-image: url(assets/image4.jpg);
+    position: relative;
+}
+
+.overlay {
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.144);
+    backdrop-filter: blur(10px);
+}
+
+.image-container h2 {
+    margin: auto;
+    width: 1000px;
+    font-size: 5rem;
+    color: white;
+}
+
+.image-container .images {
+    margin-top: 80px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    height: 75%;
+}
+
+.image-container .images .img8,
+.image-container .images .img9,
+.image-container .images .img10,
+.image-container .images .img11,
+.image-container .images .img12,
+.image-container .images .img13,
+.image-container .images .img14 {
+    object-fit: cover;
+    width: 18%;
+    border-radius: 20px;
+    border: solid 5px #7FBA00;
+}
+
+.image-container .images .img8,
+.image-container .images .img14 {
+    height: 50%;
+}
+
+.image-container .images .img9,
+.image-container .images .img13 {
+    height: 60%;
+}
+
+.image-container .images .img10,
+.image-container .images .img12 {
+    height: 30%;
+}
+
+.image-container .images .img11 {
+    height: 100%;
+}
+
+/*end pictures section*/
